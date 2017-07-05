@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Description-->
+  
+
+  <!--Author-->
+  
+  <meta name="author" content="Smartboy">
+  
+
+  <!--Open Graph Title-->
+  
+      <meta property="og:title" content="1.String"/>
+  
+  <!--Open Graph Description-->
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="Smartboy"/>
+  <!--Type page-->
+  
+      <meta property="og:type" content="article" />
+  
+  <!--Page Cover-->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Title -->
+  
+  <title>1.String - Smartboy</title>
+
+
+  <link rel="shortcut icon" href="https://hexo.io/icon/favicon-96x96.png">
+
+  <!-- Custom CSS/Sass -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!----------------------------
+  https://github.com/GallenHu/hexo-theme-Daily
+
+ _____            _   _
+|  __ \          (_) | |
+| |  | |   __ _   _  | |  _   _
+| |  | |  / _` | | | | | | | | |
+| |__| | | (_| | | | | | | |_| |
+|_____/   \__,_| |_| |_|  \__, |
+                          __/ |
+                         |___/
+
+    --------------------------->
+
+</head>
+
+
+<body>
+
+  <!-- Nav -->
+  <header class="site-header">
+  <div class="header-inside">
+    <div class="logo">
+      <a href="/" rel="home">
+        
+        <img src="https://hexo.io/logo.svg" alt="Smartboy" height="60">
+        
+      </a>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse">
+        <ul class="navbar-nav">
+          
+          
+            <li>
+              <a href="/.">
+                
+                  Home
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/archives">
+                
+                  Archive
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/demo">
+                
+                  Demo
+                
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <div class="button-wrap">
+      <button class="menu-toggle">Primary Menu</button>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  <div class="content-area">
+  <div class="post">
+    <!-- Post Content -->
+    <div class="container">
+      <article>
+        <!-- Title date & tags -->
+        <div class="post-header">
+          <h1 class="entry-title">
+            1.String
+            
+          </h1>
+          <p class="posted-on">
+          2016-07-08
+          </p>
+          <div class="tags-links">
+            
+              
+                <a href="/tags/Javascript/" rel="tag">
+                  Javascript
+                </a>
+              
+            
+          </div>
+        </div>
+        <!-- Post Main Content -->
+        <div class="entry-content">
+          <h2 id="1-String"><a href="#1-String" class="headerlink" title="1.String"></a>1.String</h2><h3 id="String-charAt"><a href="#String-charAt" class="headerlink" title="String.charAt()"></a>String.charAt()</h3><p>取得一个字符串中，第”n”个字符；n是字符串中的索引。</p>
+<h3 id="String-charCodeAt"><a href="#String-charCodeAt" class="headerlink" title="String.charCodeAt()"></a>String.charCodeAt()</h3><p>取得一个字符串中，第”n”个字符的编码</p>
+<h3 id="String-concat-value-…"><a href="#String-concat-value-…" class="headerlink" title="String.concat(value,…)"></a>String.concat(value,…)</h3><p>连接字符串</p>
+<h3 id="String-indexOf"><a href="#String-indexOf" class="headerlink" title="String.indexOf()"></a>String.indexOf()</h3><p>搜索一个子字符串。</p>
+<h3 id="String-length"><a href="#String-length" class="headerlink" title="String.length"></a>String.length</h3><p>一个字符串的长度</p>
+<h3 id="String-replace"><a href="#String-replace" class="headerlink" title="String.replace()"></a>String.replace()</h3><p>替换，第一参数可以是字符串，也可以是正则。第二个参数是替换成的文本内容，或是函数。<br>string.replace(regexp,replacement)</p>
+<h3 id="String-search"><a href="#String-search" class="headerlink" title="String.search()"></a>String.search()</h3><p>根据一个正则表达式查找，返回第一次出现的索引，没有找到返回-1</p>
+<h3 id="String-slice"><a href="#String-slice" class="headerlink" title="String.slice()"></a>String.slice()</h3><p>提取一个子串</p>
+<h3 id="String-split"><a href="#String-split" class="headerlink" title="String.split()"></a>String.split()</h3><p>把一个字符串，切分成一个数组。</p>
+<h3 id="String-substr"><a href="#String-substr" class="headerlink" title="String.substr()"></a>String.substr()</h3><p>提取一个子串</p>
+<h3 id="String-toLowerCase"><a href="#String-toLowerCase" class="headerlink" title="String.toLowerCase()"></a>String.toLowerCase()</h3><p>将一个字符串转化成小写</p>
+<h3 id="String-toUpperCase"><a href="#String-toUpperCase" class="headerlink" title="String.toUpperCase()"></a>String.toUpperCase()</h3><p>将一个字符串转化成大写</p>
+<h3 id="String-trim"><a href="#String-trim" class="headerlink" title="String.trim()"></a>String.trim()</h3><p>去掉开头和结尾处的空白字符</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> words = <span class="string">'新浪网是个网站'</span>;</div><div class="line"></div><div class="line">获取字符串的长度</div><div class="line">words.length == <span class="number">7</span> </div><div class="line">获取字符串下标为<span class="number">0</span>的字符</div><div class="line">words.charAt(<span class="number">0</span>) == <span class="string">"新"</span></div><div class="line">获取字符串最后一位字符</div><div class="line">words.charAt( words.length<span class="number">-1</span> ) == <span class="string">"站"</span></div><div class="line"></div><div class="line">返回字符串中的子字符所在的索引值，第一次出现的位置。</div><div class="line">words.indexOf(<span class="string">'网'</span>) == <span class="number">2</span></div><div class="line">words.indexOf(<span class="string">'网'</span>,<span class="number">3</span>) == <span class="number">5</span></div><div class="line">倒序查找</div><div class="line">words.lastIndexOf(<span class="string">'网'</span>) == <span class="number">5</span></div><div class="line"><span class="number">1</span>替换前，<span class="number">2</span>替换后</div><div class="line">words.replace(<span class="string">'新浪网'</span>,<span class="string">'sina'</span>) <span class="comment">//替换功能</span></div><div class="line"></div><div class="line"><span class="comment">//按某个字符进行切割，并返回数组</span></div><div class="line"><span class="keyword">var</span> words = <span class="string">'新浪网,是个网站'</span>;</div><div class="line"><span class="keyword">var</span> words.split(<span class="string">','</span>);</div><div class="line">返回结果是数组[<span class="string">"新浪网"</span>,<span class="string">"是个网站"</span>]</div><div class="line"><span class="string">"1:2:3:4"</span>.split(<span class="string">":"</span>)<span class="comment">//返回["1","2","3","4"]</span></div><div class="line"><span class="string">"|a|b|c"</span>.split(<span class="string">"|"</span>)<span class="comment">//返回["","a","b","c"]</span></div><div class="line"><span class="string">"hello"</span>.split(<span class="string">""</span>,<span class="number">3</span>)<span class="comment">//返回["h","e","l"]</span></div><div class="line"></div><div class="line"></div><div class="line">其他</div><div class="line">s.trim()  <span class="comment">//用于去除字符串两端的空格，返回一个新字符串</span></div><div class="line">s.slice(start,end)   </div><div class="line"><span class="comment">//用于从原字符串取出子字符串并返回，不改变原字符串。第一个参数是子字符串的开始位置，第二个参数是子字符串的结束位置（不含该位置）。如果参数是负值，表示从结尾开始倒数计算的位置，即该负值加上字符串长度。</span></div><div class="line">s.substring(start,end)  </div><div class="line"><span class="comment">//用于从原字符串取出子字符串并返回，不改变原字符串.第一个参数表示子字符串的开始位置，第二个位置表示结束位置。</span></div><div class="line">s.substr(start,length)   </div><div class="line"><span class="comment">//用于从原字符串取出子字符串并返回，不改变原字符串。第一个参数是子字符串的开始位置，第二个参数是子字符串的长度。如果第一个参数是负数，表示倒数计算的字符位置。如果第二个参数是负数，将被自动转为0，因此会返回空字符串。</span></div><div class="line"></div><div class="line">s.match(regexp)   </div><div class="line"><span class="keyword">var</span> w = <span class="string">'1 plus 2 eee'</span>;</div><div class="line">w.match(<span class="regexp">/\d+/g</span>)  <span class="comment">//返回["1","2"]</span></div><div class="line"><span class="comment">//用于确定原字符串是否匹配某个子字符串，返回一个数组，成员为匹配的第一个字符串。如果没有找到匹配，则返回null。</span></div></pre></td></tr></table></figure>
+        </div>
+      </article>
+    </div>
+    <!-- Comments -->
+    <div class="container">
+      
+<section id="comment">
+  <!-- <h1 class="title">留言</h1> -->
+
+  
+</section>
+
+
+    </div>
+    <!-- Pre or Next -->
+    <div class="nav-links">
+      
+        <div class="nav-previous">
+          <a href="/2016/07/10/web/Function/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一页</a>
+        </div>
+      
+      
+        <div class="nav-next">
+          <a href="/2016/06/01/web/数组/" rel="prev">下一页 <span class="meta-arraw meta-arraw-right"></span></a>
+        </div>
+      
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <!-- Footer-widgets -->
+<div class="footer-widgets">
+  <div class="row inside-wrapper">
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">关于本站</h1>
+        <div class="custom-widget-content">
+          
+          <ul></ul>
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">与我联系</h1>
+        <div class="widget-text">
+          
+            
+              <a href="mailto:f224031@126.com" class="icon icon-mail" target="_blank">mail</a>
+            
+          
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">站内搜索</h1>
+        <div class="widget-text">
+          <form onSubmit="return appDaily.submitSearch('')">
+            <p>
+              <input type="text" placeholder="search..." id="homeSearchInput">
+            </p>
+            <!-- <input type="submit" value="GO"> -->
+          </form>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="site-info">
+  <p>
+    <span>Smartboy &copy; 2017</span>
+    
+      <span class="split">|</span>
+      <span></span>
+    
+  </p>
+</footer>
+
+
+  <!-- After footer scripts -->
+  <!-- scripts -->
+<script src="/js/app.js"></script>
+
+
+
+</body>
+
+</html>

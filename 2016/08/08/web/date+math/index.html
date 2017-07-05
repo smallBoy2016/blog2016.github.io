@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Description-->
+  
+
+  <!--Author-->
+  
+  <meta name="author" content="Smartboy">
+  
+
+  <!--Open Graph Title-->
+  
+      <meta property="og:title" content="Date + Math"/>
+  
+  <!--Open Graph Description-->
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="Smartboy"/>
+  <!--Type page-->
+  
+      <meta property="og:type" content="article" />
+  
+  <!--Page Cover-->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Title -->
+  
+  <title>Date + Math - Smartboy</title>
+
+
+  <link rel="shortcut icon" href="https://hexo.io/icon/favicon-96x96.png">
+
+  <!-- Custom CSS/Sass -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!----------------------------
+  https://github.com/GallenHu/hexo-theme-Daily
+
+ _____            _   _
+|  __ \          (_) | |
+| |  | |   __ _   _  | |  _   _
+| |  | |  / _` | | | | | | | | |
+| |__| | | (_| | | | | | | |_| |
+|_____/   \__,_| |_| |_|  \__, |
+                          __/ |
+                         |___/
+
+    --------------------------->
+
+</head>
+
+
+<body>
+
+  <!-- Nav -->
+  <header class="site-header">
+  <div class="header-inside">
+    <div class="logo">
+      <a href="/" rel="home">
+        
+        <img src="https://hexo.io/logo.svg" alt="Smartboy" height="60">
+        
+      </a>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse">
+        <ul class="navbar-nav">
+          
+          
+            <li>
+              <a href="/.">
+                
+                  Home
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/archives">
+                
+                  Archive
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/demo">
+                
+                  Demo
+                
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <div class="button-wrap">
+      <button class="menu-toggle">Primary Menu</button>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  <div class="content-area">
+  <div class="post">
+    <!-- Post Content -->
+    <div class="container">
+      <article>
+        <!-- Title date & tags -->
+        <div class="post-header">
+          <h1 class="entry-title">
+            Date + Math
+            
+          </h1>
+          <p class="posted-on">
+          2016-08-08
+          </p>
+          <div class="tags-links">
+            
+              
+                <a href="/tags/Web开发/" rel="tag">
+                  Web开发
+                </a>
+              
+            
+          </div>
+        </div>
+        <!-- Post Main Content -->
+        <div class="entry-content">
+          <h2 id="3-Date"><a href="#3-Date" class="headerlink" title="3.Date"></a>3.Date</h2><h3 id="Date-getDate"><a href="#Date-getDate" class="headerlink" title="Date.getDate()"></a>Date.getDate()</h3><p>返回一个Date对象的月份中的日期值 1~31</p>
+<h3 id="Date-getDay"><a href="#Date-getDay" class="headerlink" title="Date.getDay()"></a>Date.getDay()</h3><p>返回一个Date对象的一周中的日期值 0~6    </p>
+<h3 id="Date-getFullYear"><a href="#Date-getFullYear" class="headerlink" title="Date.getFullYear()"></a>Date.getFullYear()</h3><p>获取本地时间的年份，如：2017</p>
+<h3 id="Date-getHours"><a href="#Date-getHours" class="headerlink" title="Date.getHours()"></a>Date.getHours()</h3><p>时</p>
+<h3 id="Date-getMinutes"><a href="#Date-getMinutes" class="headerlink" title="Date.getMinutes()"></a>Date.getMinutes()</h3><p>分钟数。</p>
+<h3 id="Date-getSeconds"><a href="#Date-getSeconds" class="headerlink" title="Date.getSeconds()"></a>Date.getSeconds()</h3><p>秒</p>
+<h3 id="Date-getMilliseconds"><a href="#Date-getMilliseconds" class="headerlink" title="Date.getMilliseconds()"></a>Date.getMilliseconds()</h3><p>本地时间表示时的毫秒值</p>
+<h3 id="Date-getTime-方法返回一个时间的格林威治时间数值。-时间戳"><a href="#Date-getTime-方法返回一个时间的格林威治时间数值。-时间戳" class="headerlink" title="Date.getTime() 方法返回一个时间的格林威治时间数值。(时间戳)"></a>Date.getTime() 方法返回一个时间的格林威治时间数值。(时间戳)</h3><h2 id="4-Math"><a href="#4-Math" class="headerlink" title="4.Math"></a>4.Math</h2><h3 id="Math-PI-表示一个圆的周长与直径的比例，约为-3-14159："><a href="#Math-PI-表示一个圆的周长与直径的比例，约为-3-14159：" class="headerlink" title="Math.PI 表示一个圆的周长与直径的比例，约为 3.14159："></a>Math.PI 表示一个圆的周长与直径的比例，约为 3.14159：</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">calculateCircumference</span> (<span class="params">radius</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="number">2</span> * <span class="built_in">Math</span>.PI * radius;</div><div class="line">&#125;</div><div class="line"></div><div class="line">calculateCircumference(<span class="number">1</span>);  <span class="comment">// 6.283185307179586</span></div></pre></td></tr></table></figure>
+<h3 id="Math-random"><a href="#Math-random" class="headerlink" title="Math.random()"></a>Math.random()</h3><p>返回0到1之间的伪随机数.</p>
+<h3 id="Math-abs-x"><a href="#Math-abs-x" class="headerlink" title="Math.abs(x)"></a>Math.abs(x)</h3><p>返回x的绝对值.</p>
+<h3 id="Math-cbrt-x"><a href="#Math-cbrt-x" class="headerlink" title="Math.cbrt(x)"></a>Math.cbrt(x)</h3><p>返回x的立方根.</p>
+<h3 id="Math-ceil-x"><a href="#Math-ceil-x" class="headerlink" title="Math.ceil(x)"></a>Math.ceil(x)</h3><p>返回x向上取整后的值.</p>
+<h3 id="Math-floor-x"><a href="#Math-floor-x" class="headerlink" title="Math.floor(x)"></a>Math.floor(x)</h3><p>返回小于x的最大整数。</p>
+<h3 id="Math-pow-x-y"><a href="#Math-pow-x-y" class="headerlink" title="Math.pow(x,y)"></a>Math.pow(x,y)</h3><p>返回x的y次幂.<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.pow(<span class="number">3</span>,<span class="number">3</span>)<span class="comment">//27</span></div></pre></td></tr></table></figure></p>
+
+        </div>
+      </article>
+    </div>
+    <!-- Comments -->
+    <div class="container">
+      
+<section id="comment">
+  <!-- <h1 class="title">留言</h1> -->
+
+  
+</section>
+
+
+    </div>
+    <!-- Pre or Next -->
+    <div class="nav-links">
+      
+        <div class="nav-previous">
+          <a href="/2016/10/20/web/linux系统常用命令/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一页</a>
+        </div>
+      
+      
+        <div class="nav-next">
+          <a href="/2016/07/15/web/JSON/" rel="prev">下一页 <span class="meta-arraw meta-arraw-right"></span></a>
+        </div>
+      
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <!-- Footer-widgets -->
+<div class="footer-widgets">
+  <div class="row inside-wrapper">
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">关于本站</h1>
+        <div class="custom-widget-content">
+          
+          <ul></ul>
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">与我联系</h1>
+        <div class="widget-text">
+          
+            
+              <a href="mailto:f224031@126.com" class="icon icon-mail" target="_blank">mail</a>
+            
+          
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">站内搜索</h1>
+        <div class="widget-text">
+          <form onSubmit="return appDaily.submitSearch('')">
+            <p>
+              <input type="text" placeholder="search..." id="homeSearchInput">
+            </p>
+            <!-- <input type="submit" value="GO"> -->
+          </form>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="site-info">
+  <p>
+    <span>Smartboy &copy; 2017</span>
+    
+      <span class="split">|</span>
+      <span></span>
+    
+  </p>
+</footer>
+
+
+  <!-- After footer scripts -->
+  <!-- scripts -->
+<script src="/js/app.js"></script>
+
+
+
+</body>
+
+</html>
