@@ -383,13 +383,15 @@ h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont,"Helvetica Neue","PingFang-SC-Regular","STHeiti", "Helvetica","Arial","Verdana","sans-serif","Microsoft YaHei"; }
 
 h1 {
-  font-size: 1.250em; }
+  font-size: 1.750em;
+  color: #ff0033; }
 
 h1:hover {
   opacity: 0.7; }
 
 h2 {
-  font-size: 1.2em; }
+  font-size: 1.5em;
+  color: #ff3333; }
 
 h3 {
   font-weight: bold;
@@ -402,7 +404,8 @@ blockquote p {
   margin: 0; }
 
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+  background: #ccffcc; }
 
 em {
   font-style: italic; }
@@ -523,7 +526,7 @@ Content
   position: relative; }
 
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px; }
